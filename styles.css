@@ -1,0 +1,1128 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: outfit;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+header .nav-container {
+    width: 100%;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.15);
+}
+
+header .nav-container nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+header .nav-container nav div:nth-child(2) {
+    padding: 20px 32px;
+    background-color: #FAFAFA;
+    border-radius: 32px;
+    margin-left: 288px;
+}
+
+header .nav-container nav div > ul {
+    display: flex;
+}
+
+header .nav-container nav div > ul a {
+    color: #565656;
+    text-decoration: none;
+    font-family: outfit;
+    font-size: 18px;
+}
+
+header .nav-container nav div > ul .active {
+    color: #055C9D;
+    text-decoration: none;
+    padding-right: 32px;
+    border-right: 1px solid #D6D6D6;
+}
+
+header .nav-container nav div > ul .inactive {
+    padding-right: 32px;
+    padding-left: 32px;
+    border-right: 1px solid #D6D6D6;
+}
+
+header .nav-container nav div > ul .inactive.c4 {
+    padding-right: 0px;
+    border-right: 1px solid #FAFAFA;
+}
+
+header .nav-container .menu {
+    padding: 8px;
+    height: 24px;
+    background-color: #FAFAFA;
+    border-radius: 40px;
+}
+
+header .nav-container .hideOnDesktop {
+    display: none;
+}
+
+header .hero-container {
+    max-width: 100%;
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-bottom: 40px;
+    background-image: linear-gradient(#FDFDFF, #F6F9FF);
+    border-radius: 32px;
+}
+
+header .hero-container .hero {
+    display: flex;
+    margin-top: 16px;
+}
+
+header .hero-container .cta {
+    margin-top: 80px;
+}
+
+.hero-container .cta .hero-text h1 {
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 125%;
+    color: #232323;
+    margin-bottom: 8px;
+}
+
+.hero-container .cta .hero-text span {
+    color: #055C9D;
+}
+
+.hero-container .cta .hero-text p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 144%;
+    color: #343434;
+    margin-bottom: 64px;
+}
+
+.hero-container .cta button {
+    border: none;
+    font-family: outfit;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fdfdfd;
+    padding: 16px 48px;
+    border-radius: 32px;
+    background-color: #055C9D;
+}
+
+.hero-container .hero .plane {
+    margin-top: 128px;
+}
+
+.hero-container .i-component {
+    margin-left: 607px;
+    margin-top: 2px;
+}
+
+.hero-container .burst {
+    margin-right: 90px;
+    margin-left: 1124px;
+    margin-top: -24px;
+    
+}
+
+main {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+main .collaborators-container {
+    max-width: 1243px;
+    margin: 0px auto;
+}
+
+main .collaborators-container p {
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #232323;
+}
+
+main .collaborators-container .logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+}
+
+main .container {
+    background-color: #F6F9FF;
+    margin-top: 40px;
+    position: relative;
+    border-radius: 32px;
+}
+
+main .container .products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main .container .products-container > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 52px;
+    padding-bottom: 64px;
+}
+
+main .container .products-container > div > h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #055C9D;
+    margin-bottom:16px;
+}
+
+main .container .products-container > div > p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #343434;
+}
+
+main .container .products-container > img {
+    position: absolute;
+    left: 1224px;
+    top: 42px;
+}
+
+main .container .products-container .products {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 30px;
+    row-gap: 44px;
+    padding-bottom: 52px;
+}
+
+main .container .products-container .products .card {
+    background-color: #fdfdfd;
+    padding-top: 40px;
+    padding-bottom: 64px;
+    padding-left: 40px;
+    padding-right: 40px;
+    grid-column: span 4;
+    border-radius: 4px;
+}
+
+main .container .products-container .products .card > div > p:nth-child(2) {
+    display: inline-block;
+    padding: 4px 30px;
+    background-color: #D7E3F0;
+    border-radius: 32px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #0A3167;
+    margin-top: 12px;
+    margin-bottom: 19px;
+}
+
+main .container .products-container .products .card > div > p:nth-child(3) {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 162%;
+    color: #343434;
+    margin-bottom: 32px;
+}
+
+main .container .products-container .products .card .link a {
+    text-decoration: none;
+    color: #055C9D;
+    font-family: outfit;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+main .container .products-container .products .card .two > p:nth-child(2) {
+    background-color: #E4E2EF;
+    color: #391CCF;
+    margin-bottom: 16px;
+}
+
+main .container .products-container .products .card .three > p:nth-child(2) {
+    background-color: #FBDCDD;
+    color: #CF0500;
+    margin-bottom: 16px;
+}
+
+main .container .products-container .products .card .four > p:nth-child(2) {
+    background-color: #FBDCDD;
+    color: #CF0500;
+    margin-bottom: 16px;
+}
+
+main .container .products-container .products .card .five > p:nth-child(2) {
+    background-color: #D6DCDF;
+    color: #2A4F74;
+    margin-bottom: 16px;
+}
+
+main .about-container {
+    max-width: 1200px;
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    
+
+main .about-container .about-text h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #055C9D;
+    margin-bottom: 24px;
+    max-width: 622px;
+}
+
+main .about-container .about-text p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 162%;
+    color: #343434;
+    max-width: 622px;
+}
+
+main .about-container .about-text p:nth-child(2) {
+    margin-bottom: 24px;
+}
+
+main .about-container .about-text p:nth-child(3) {
+    margin-bottom: 24px;
+}
+
+main .about-container .about-images {
+    display: flex;
+    flex-direction: column;
+}
+
+main .about-container .about-images .upper , .lower {
+    display: flex;
+}
+
+main .about-container .about-images .upper {
+    margin-bottom: 8px;
+}
+
+main .about-container .about-images img:nth-child(1) {
+    margin-right: 8px;
+}
+
+main .principles-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+main .principles-container .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 80px;
+}
+
+main .principles-container .heading h2 {
+    font-size: 32px;
+    color: #055C9D;
+    font-weight: 400;
+    margin-right: 54px;
+}
+
+main .principles-container .heading img {
+    margin-top: 4px;
+}
+
+main .principles-container .principles {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    column-gap: 10px;
+    row-gap: 40px;
+}
+
+main .principles-container .principles .block {
+    grid-column: span 4;
+}
+
+main .principles-container .principles .block.one,.two {
+    padding-right: 10px;
+    border-right: 1px solid #D6D6D6;
+}
+
+main .principles-container .principles .line {
+    grid-column: span 12;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .principles-container .principles .line hr {
+    width: 364px;
+    height: 1px;
+    background-color: #d6d6d6;
+    border: none;
+}
+
+main .principles-container .principles .block.four,.five{
+    padding-right: 10px;
+    border-right: 1px solid #D6D6D6;
+}
+
+
+main .principles-container .principles .block img {
+    margin-bottom: 16px;
+}
+
+main .principles-container .principles .block h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #232323;
+    margin-bottom: 20px;
+}
+
+main .principles-container .principles .block p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 162%;
+    color: #343434;
+}
+
+main .principles-container .principles .block h3 .blue{
+    color: #055C9D;
+}
+
+main .principles-container .principles .block h3 .green {
+    color: #32AFB5;
+}
+
+main .team-container {
+    background-color: #F4FBFB;
+}
+
+main .team-container .team {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main .team-container .team .team-intro {
+    grid-column: span 12;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 52px;
+    padding-bottom: 100px;
+}
+
+main .team-container .team .team-intro h3 {
+    font-size: 32px;
+    color: #055C9D;
+    font-weight: 400;
+}
+
+main .team-container .team .team-intro p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 162%;
+    color: #343434;
+    text-align: center;
+    margin-top: 16px;
+}
+
+main .team-container .team .team-info {
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    column-gap: 44px;
+    row-gap: 64px;
+    padding-bottom: 80px;
+}
+
+main .team-container .team .team-info .profile {
+    grid-column: span 3;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E7F0F0;
+}
+
+main .team-container .team .team-info .profile .picture {
+    padding-top: 16px;
+    padding-bottom: 26px;
+    padding-left: 46px;
+    padding-right: 46px;
+
+}
+
+main .team-container .team .team-info .profile .role {
+    background-color: #fdfdfd;
+    width: 217px;
+    height: 81px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .team-container .team .team-info .profile .role h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #232323;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+main .team-container .team .team-info .profile .role p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #232323;
+    text-align: center;
+}
+
+main .team-container .team .team-info .profile.eight .role > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .team-container .team .team-info .profile.eight .role > div > img {
+    margin-left: 4px;
+    width: 40px;
+    height: 16px;
+}
+
+main .team-container .team .team-info .nine {
+    grid-column: 4 / span 3;
+}
+
+main .contact-container {
+    max-width: 1200px;
+    margin: 60px auto;
+}
+
+main .contact-container .contact {
+    display: flex;
+    align-items: center;
+}
+
+main .contact-container .contact .text {
+    margin-right: 194px;
+}
+
+main .contact-container .contact .text h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #055C9D;
+    margin-bottom: 24px;
+}
+
+main .contact-container .contact .text p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #343434;
+    margin-bottom: 42px;
+    line-height: 162%;
+}
+
+main .contact-container .contact .text .cta button {
+    border: none;
+    background-color: #055C9D;
+    color: #fdfdfd;
+    padding: 14px 28px;
+    border-radius: 32px;
+    font-family: outfit;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+main .contact-container .contact .text .cta a {
+    text-decoration: none;
+    font-family: outfit;
+    font-size: 18px;
+    font-weight: 400;
+    color: #055C9D;
+    margin-left: 24px;
+    margin-right: 8px;
+}
+
+main .contact-container hr {
+    height: 1px;
+    background-color: #f5f5f5;
+    border: none;
+    margin-top: 64px;
+}
+
+footer .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .footer-container > div > p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 162%;
+    color: #343434;
+    margin-bottom: 40px;
+    width: 716px;
+}
+
+footer .footer-container .copyrights {
+    display: flex;
+    margin-bottom: 64px;
+    justify-content: space-between;
+}
+
+footer .footer-container .copyrights .copy-text {
+    display: flex;
+    align-items: center;
+}
+
+footer .footer-container .copyrights .copy-text > img {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
+footer .footer-container .copyrights .copy-text p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #343434;
+}
+
+footer .footer-container .copyrights div:nth-child(2) {
+    display: flex;
+    align-items: center;
+}
+
+footer .footer-container .copyrights div:nth-child(2) a {
+    text-decoration: none;
+    font-family: outfit;
+    font-size: 16px;
+    font-weight: 400;
+    color: #055C9D;
+    margin-right: 40px;
+}
+
+footer .footer-container .copyrights div:nth-child(2) img {
+    margin-right: 32px;
+}
+
+
+/* mobile responsiveness */
+
+
+@media (max-width:500px) {
+    .hideOnMobile {
+        display: none;
+    }
+
+    header .nav-container .hideOnDesktop {
+        display: block;
+    }
+
+    header .nav-container nav {
+        justify-content: space-between;
+    }
+
+    header .nav-container nav div:nth-child(1) img {
+        margin-left: 16px;
+    }
+
+    header .nav-container nav div:nth-child(3) {
+        margin-right: 16px;
+    }
+
+    header .hero-container {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 0px;
+        background-image: linear-gradient(#FDFDFF, #F6F9FF);
+        border-radius: 12px;
+    }
+    
+    header .hero-container .hero {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    
+    header .hero-container .cta {
+        margin-top: 64px;
+    }
+    
+    .hero-container .cta .hero-text h1 {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 120%;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+    
+    .hero-container .cta .hero-text p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 144%;
+        margin-bottom: 42px;
+        text-align: center;
+    }
+
+    .hero-container .cta .button-1 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .hero-container .cta button {
+        font-size: 14px;
+        padding: 16px 32px;
+        background-color: #055C9D;
+    }
+    
+    .hero-container .hero .plane {
+        display: none;
+    }
+
+    .hero-container .hero .plane img {
+        height: 15px;
+        width: 19px;
+    }
+
+    .hero-container .hero .hero-image {
+        align-self: center;
+        margin-top: 48px;
+    }
+
+    .hero-container .hero .hero-image img {
+        width: 310px;
+        height: 433px;
+    }
+    
+    .hero-container .i-component {
+        display: none;
+    }
+    
+    .hero-container .burst {
+        display: none;
+        
+    }
+
+    main {
+        margin-top: 32px;
+        margin-bottom: 40px;
+    }
+    
+    main .collaborators-container {
+        margin: 0px 16px;
+    }
+
+    main .collaborators-container p {
+        font-size: 18px;
+    }
+    
+    main .collaborators-container .logos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 24px;
+    }
+
+    main .collaborators-container .logos img {
+        height: 58px;
+        width: auto;
+    }
+
+    main .container {
+        margin-top: 32px;
+        border-radius: 12px;
+    }
+    
+    main .container .products-container {
+        margin: 0 18px;
+    }
+    
+    main .container .products-container > div:nth-child(1) {
+        padding-top: 24px;
+        padding-bottom: 32px;
+    }
+    
+    main .container .products-container > div > h2 {
+        font-size: 16px;
+        margin-bottom:8px;
+    }
+    
+    main .container .products-container > div > p {
+        font-size: 14px;
+    }
+    
+    main .container .products-container > img {
+        display: none;
+    }
+    
+    main .container .products-container .products {
+        row-gap: 32px;
+        padding-bottom: 64px;
+    }
+    
+    main .container .products-container .products .card {
+        padding: 40px;
+        grid-column: span 12;
+        border-radius: 4px;
+    }
+    
+    main .container .products-container .products .card > div > p:nth-child(2) {
+        padding: 4px 19px;
+        font-size: 12px;
+        margin-top: 6px;
+        margin-bottom: 24px;
+    }
+    
+    main .container .products-container .products .card > div > p:nth-child(3) {
+        font-size: 14px;
+    }
+    
+    main .container .products-container .products .card .link a {
+        font-size: 14px;
+    }
+    
+    main .container .products-container .products .card .two > p:nth-child(2) {
+        margin-bottom: 24px;
+    }
+    
+    main .container .products-container .products .card .three > p:nth-child(2) {
+        margin-bottom: 24px;
+    }
+    
+    main .container .products-container .products .card .four > p:nth-child(2) {
+        margin-bottom: 24px;
+    }
+    
+    main .container .products-container .products .card .five > p:nth-child(2) {
+        margin-bottom: 24px;
+    }
+    
+    main .about-container {
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 64px;
+        margin-bottom: 64px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    main .about-container .about-text h2 {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+    
+    main .about-container .about-text p {
+        font-size: 14px;
+   
+    }
+    
+    main .about-container .about-text p:nth-child(2) {
+        margin-bottom: 24px;
+    }
+    
+    main .about-container .about-text p:nth-child(3) {
+        margin-bottom: 24px;
+    }
+    
+    main .about-container .about-images {
+        display: flex;
+        flex-direction: column;
+        margin-top: 16px;
+    }
+    
+    main .about-container .about-images .upper , .lower {
+        display: flex;
+    }
+    
+    main .about-container .about-images .upper {
+        margin-bottom: 4px;
+    }
+
+    main .about-container .about-images .upper img{
+        width: 139px;
+        height: 69px;
+    }
+    
+    main .about-container .about-images .lower img{
+        width: 128px;
+        height: 80px;
+    }
+
+    main .about-container .about-images img:nth-child(1) {
+        margin-right: 4px;
+    }
+    
+    main .principles-container {
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 64px;
+    }
+    
+    main .principles-container .heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+        padding-bottom: 32px;
+    }
+    
+    main .principles-container .heading h2 {
+        font-size: 18px;
+        margin-right: 20px;
+    }
+    
+    main .principles-container .heading img {
+        width: 19px;
+        height: 15px;
+    }
+    
+    main .principles-container .principles {
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        justify-content: center;
+        column-gap: 0px;
+        row-gap: 48px;
+    }
+    
+    main .principles-container .principles .block {
+        grid-column: span 12;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    main .principles-container .principles .block.one,.two {
+        padding-right: 0px;
+        border-right: 0px;
+    }
+    
+    main .principles-container .principles .line {
+        display: none;
+    }
+    
+    main .principles-container .principles .line hr {
+        display: none;
+    }
+    
+    main .principles-container .principles .block.four,.five{
+        padding-right: 0px;
+        border-right: 0px;
+    }
+    
+    
+    main .principles-container .principles .block img {
+        margin-bottom: 12px;
+        height: 44px;
+        width: 44px;
+    }
+    
+    main .principles-container .principles .block h3 {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    
+    main .principles-container .principles .block p {
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    
+    main .team-container .team {
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        margin: 0 16px;
+    }
+    
+    main .team-container .team .team-intro {
+        padding-top: 24px;
+        padding-bottom: 32px;
+    }
+    
+    main .team-container .team .team-intro h3 {
+        font-size: 18px;
+    }
+    
+    main .team-container .team .team-intro p {
+        font-size: 14px;
+        margin-top: 12px;
+    }
+    
+    main .team-container .team .team-info {
+        grid-column: span 12;
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        column-gap: 12px;
+        row-gap: 32px;
+        padding-bottom: 80px;
+    }
+    
+    main .team-container .team .team-info .profile {
+        grid-column: span 6;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #E7F0F0;
+    }
+    
+    main .team-container .team .team-info .profile .picture {
+        padding-top: 10px;
+        padding-bottom: 17px;
+        padding-left: 31px;
+        padding-right: 31px;
+    }
+
+    main .team-container .team .team-info .profile .picture img {
+        width: 95px;
+        height: 95px;
+    }
+    
+    main .team-container .team .team-info .profile .role {
+        width: 100%;
+        height: 54px;
+    }
+    
+    main .team-container .team .team-info .profile .role h4 {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+    
+    main .team-container .team .team-info .profile .role p {
+        font-size: 10px;
+    }
+    
+    main .team-container .team .team-info .profile.eight .role > div > img {
+        margin-left: 4px;
+        width: 24px;
+        height: 10px;
+    }
+    
+    main .team-container .team .team-info .nine {
+        grid-column: span 6;
+    }
+    
+    main .contact-container {
+        margin: 64px 16px;
+    }
+    
+    main .contact-container .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 44px;
+    }
+    
+    main .contact-container .contact .text {
+        margin-right: 0px;
+    }
+    
+    main .contact-container .contact .text h2 {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+    
+    main .contact-container .contact .text p {
+        font-size: 14px;
+        margin-bottom: 32px;
+        line-height: 162%;
+    }
+    
+    main .contact-container .contact .text .cta button {
+        font-size: 14px;
+    }
+    
+    main .contact-container .contact .text .cta a {
+        font-size: 16px;
+        margin-left: 24px;
+        margin-right: 8px;
+    }
+    
+    main .contact-container .contact .iso img {
+        width: 88px;
+        height: 88px;
+    }
+
+    main .contact-container hr {
+        margin-top: 32px;
+    }
+
+    footer .footer-container {
+        margin: 0 16px;
+    }
+    
+    footer .footer-container > div > p {
+        font-size: 14px;
+        margin-bottom: 32px;
+        width: 100%;
+    }
+    
+    footer .footer-container .copyrights {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 64px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    footer .footer-container .copyrights .copy-text {
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+    
+    footer .footer-container .copyrights .copy-text > img {
+        width: 16px;
+        height: 16px;
+        margin-right: 4px;
+    }
+    
+    footer .footer-container .copyrights .copy-text p {
+        font-size: 14px;
+    }
+    
+    footer .footer-container .copyrights div:nth-child(2) {
+        display: flex;
+        align-items: center;
+    }
+    
+    footer .footer-container .copyrights div:nth-child(2) a {
+        text-decoration: none;
+        font-family: outfit;
+        font-size: 14px;
+        font-weight: 400;
+        color: #055C9D;
+        margin-right: 40px;
+    }
+    
+    footer .footer-container .copyrights div:nth-child(2) img {
+        margin-right: 28px;
+    }
+
+}
